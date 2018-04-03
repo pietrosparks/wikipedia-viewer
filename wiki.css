@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat+Alternates');
+
+
+#main{
+		
+	 display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Fredoka One;
+}
+
+#sec{
+	background-color: #B0BEC5;
+	margin: 20px;
+	padding: 20px;
+}
+
+h3 a{
+	color:yellow;
+	font-family: Fredoka One;
+}
+
+#sec p{
+	font-family: Montserrat Alternates;
+}
+body{
+	background-color: #EEEEEE;  
+	background-repeat: none;
+
+
+}
+
+.background-image{
+	background-image: url("backgroundp.jpg");
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+header{
+	text-align: center;
+}
+.heading{
+	font-family: Fredoka One !important;
+	
+}
+#form{
+	margin: 0 auto;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[name="search"]{
+	border: black 3px solid;
+	border-radius: 50px;
+	height: 50px;
+	width: 300px;	
+	line-height: 300px;
+	color: black;
+	text-align:center;
+	font-family: Fredoka One;
+	outline: none;
+	
+
+}
+
+input[name="search"]::placeholder{
+	color: grey;
+	text-align:center;
+	font-family: Fredoka One;
+}
+button{
+	height: 50px;
+	border-radius: 100px;
+	border: black 3px solid;
+	color: black;
+	font-family: Fredoka One;
+	width: 50px;
+	outline: none;
+}
+
+#searchTerm {
+	font-family: Fredoka One;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}
+//========================================================
+Fancy Form Css
+//========================================================
+
